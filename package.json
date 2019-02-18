@@ -1,6 +1,6 @@
 {
-  "name": "fcbuffer",
-  "description": "Serialization library geared towards immutable data storage such as blockchains.",
+  "name": "evt-fcbuffer",
+  "description": "Serialization library geared towards immutable data storage such as blockchains. (Branched from EOS)",
   "version": "2.2.2",
   "main": "lib/index.js",
   "files": [
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/EOSIO/fcbuffer.git"
+    "url": "git://github.com/everitoken/evt-fcbuffer.git"
   },
   "dependencies": {
     "bn.js": "^4.11.8",

@@ -117,7 +117,7 @@ function create(definitions, types, config = types.config) {
     } else if (arrayType == null) {
       // AnyType
       const fieldStruct = structs[name]
-      if (fieldStruct) { return fieldStruct }
+      if (fieldStruct) { return typeatty.optional ? types.optional(fieldStruct) : fieldStruct }
 
       const type = types[name]
       if (!type) {
